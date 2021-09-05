@@ -1,0 +1,26 @@
+#-----Default SonarQube server
+#sonar.host.url=http://localhost:9000
+
+#-----PostgreSQL
+#sonar.jdbc.url=jdbc:postgresql://localhost/sonar
+
+#-----MySQL
+#sonar.jdbc.url=jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8
+
+#-----Oracle
+#sonar.jdbc.url=jdbc:oracle:thin:@localhost/XE
+
+#-----Microsoft SQLServer
+#sonar.jdbc.url=jdbc:jtds:sqlserver://localhost/sonar;SelectionMethod.Cursor
+
+#-----Global database settings
+#sonar.jdbc.username=sonar
+#sonar.jdbc.password=sonar
+
+
+sonar.projectKey=Sonar
+sonar.projectName=Sonar
+sonar.projectVersion=1.0
+
+sonar.sources=C:/Users/jyoth/Desktop/installations/eclipse/Sonar/src/TestSonar/SonarDemo.java
+sonar.tests=C:/Users/jyoth/Desktop/installations/eclipse/Sonar/src/TestScript/Script.java
